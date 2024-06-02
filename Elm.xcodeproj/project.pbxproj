@@ -11,6 +11,29 @@
 		7207BDDF2C0B564600BA18CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207BDDE2C0B564600BA18CE /* ContentView.swift */; };
 		7207BDE12C0B564700BA18CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7207BDE02C0B564700BA18CE /* Assets.xcassets */; };
 		7207BDE42C0B564700BA18CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7207BDE32C0B564700BA18CE /* Preview Assets.xcassets */; };
+		7207BDEC2C0B569700BA18CE /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207BDEB2C0B569700BA18CE /* Service.swift */; };
+		7207BDEE2C0B56B200BA18CE /* DefaultLoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207BDED2C0B56B200BA18CE /* DefaultLoginService.swift */; };
+		7207BDF52C0B572400BA18CE /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207BDF42C0B572400BA18CE /* LoginViewModel.swift */; };
+		7207BDF72C0B573100BA18CE /* LoginProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207BDF62C0B573100BA18CE /* LoginProtocols.swift */; };
+		7207BDF92C0B577800BA18CE /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207BDF82C0B577800BA18CE /* LoginView.swift */; };
+		7207BDFC2C0B5C6C00BA18CE /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207BDFB2C0B5C6C00BA18CE /* Localization.swift */; };
+		7207BDFF2C0B5F5B00BA18CE /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207BDFE2C0B5F5B00BA18CE /* NetworkClient.swift */; };
+		7207BE012C0B5F6900BA18CE /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207BE002C0B5F6900BA18CE /* LoginRouter.swift */; };
+		7207BE042C0B5F8C00BA18CE /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207BE032C0B5F8C00BA18CE /* APIRouter.swift */; };
+		7207BE062C0B5FB600BA18CE /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207BE052C0B5FB600BA18CE /* Constans.swift */; };
+		7207BE092C0B5FD700BA18CE /* ResponseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207BE082C0B5FD700BA18CE /* ResponseObject.swift */; };
+		7207BE0C2C0B602300BA18CE /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 7207BE0B2C0B602300BA18CE /* Alamofire */; };
+		7207BE0E2C0B602300BA18CE /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 7207BE0D2C0B602300BA18CE /* AlamofireDynamic */; };
+		7207BE102C0B614700BA18CE /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207BE0F2C0B614700BA18CE /* LoginModel.swift */; };
+		7207BE292C0BCD2200BA18CE /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207BE262C0BCD2200BA18CE /* Router.swift */; };
+		7207BE2A2C0BCD2200BA18CE /* RoutingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207BE272C0BCD2200BA18CE /* RoutingView.swift */; };
+		7207BE2B2C0BCD2200BA18CE /* Routable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207BE282C0BCD2200BA18CE /* Routable.swift */; };
+		7207BE312C0BD3C100BA18CE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207BE302C0BD3C100BA18CE /* HomeView.swift */; };
+		7207BE332C0BD3D600BA18CE /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207BE322C0BD3D600BA18CE /* HomeViewModel.swift */; };
+		7207BE352C0BD3EB00BA18CE /* DefaultHomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207BE342C0BD3EB00BA18CE /* DefaultHomeService.swift */; };
+		7207BE372C0C46DE00BA18CE /* incidentsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207BE362C0C46DE00BA18CE /* incidentsProtocols.swift */; };
+		7207BE392C0C471600BA18CE /* IncidentsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207BE382C0C471600BA18CE /* IncidentsModel.swift */; };
+		7207BE3B2C0C4D9400BA18CE /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207BE3A2C0C4D9400BA18CE /* HomeRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +42,27 @@
 		7207BDDE2C0B564600BA18CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7207BDE02C0B564700BA18CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7207BDE32C0B564700BA18CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7207BDEB2C0B569700BA18CE /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		7207BDED2C0B56B200BA18CE /* DefaultLoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultLoginService.swift; sourceTree = "<group>"; };
+		7207BDF42C0B572400BA18CE /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		7207BDF62C0B573100BA18CE /* LoginProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProtocols.swift; sourceTree = "<group>"; };
+		7207BDF82C0B577800BA18CE /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		7207BDFB2C0B5C6C00BA18CE /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		7207BDFE2C0B5F5B00BA18CE /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		7207BE002C0B5F6900BA18CE /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		7207BE032C0B5F8C00BA18CE /* APIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
+		7207BE052C0B5FB600BA18CE /* Constans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
+		7207BE082C0B5FD700BA18CE /* ResponseObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseObject.swift; sourceTree = "<group>"; };
+		7207BE0F2C0B614700BA18CE /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		7207BE262C0BCD2200BA18CE /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		7207BE272C0BCD2200BA18CE /* RoutingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutingView.swift; sourceTree = "<group>"; };
+		7207BE282C0BCD2200BA18CE /* Routable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Routable.swift; sourceTree = "<group>"; };
+		7207BE302C0BD3C100BA18CE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7207BE322C0BD3D600BA18CE /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		7207BE342C0BD3EB00BA18CE /* DefaultHomeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultHomeService.swift; sourceTree = "<group>"; };
+		7207BE362C0C46DE00BA18CE /* incidentsProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = incidentsProtocols.swift; sourceTree = "<group>"; };
+		7207BE382C0C471600BA18CE /* IncidentsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidentsModel.swift; sourceTree = "<group>"; };
+		7207BE3A2C0C4D9400BA18CE /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7207BE0C2C0B602300BA18CE /* Alamofire in Frameworks */,
+				7207BE0E2C0B602300BA18CE /* AlamofireDynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +97,13 @@
 		7207BDDB2C0B564600BA18CE /* Elm */ = {
 			isa = PBXGroup;
 			children = (
+				7207BE252C0BCD1100BA18CE /* Coordinator */,
+				7207BE112C0B62E200BA18CE /* Service */,
+				7207BE072C0B5FD200BA18CE /* Models */,
+				7207BE022C0B5F8400BA18CE /* Protocols */,
+				7207BDFD2C0B5F5400BA18CE /* Networking */,
+				7207BDFA2C0B5C5E00BA18CE /* Localizations */,
+				7207BDEF2C0B56CA00BA18CE /* Scens */,
 				7207BDDC2C0B564600BA18CE /* ElmApp.swift */,
 				7207BDDE2C0B564600BA18CE /* ContentView.swift */,
 				7207BDE02C0B564700BA18CE /* Assets.xcassets */,
@@ -65,6 +118,140 @@
 				7207BDE32C0B564700BA18CE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7207BDEA2C0B568800BA18CE /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				7207BDED2C0B56B200BA18CE /* DefaultLoginService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		7207BDEF2C0B56CA00BA18CE /* Scens */ = {
+			isa = PBXGroup;
+			children = (
+				7207BE2C2C0BD39600BA18CE /* Home */,
+				7207BDF02C0B56E100BA18CE /* Login */,
+			);
+			path = Scens;
+			sourceTree = "<group>";
+		};
+		7207BDF02C0B56E100BA18CE /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				7207BDEA2C0B568800BA18CE /* Service */,
+				7207BDF22C0B56F000BA18CE /* VM */,
+				7207BDF12C0B56E900BA18CE /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		7207BDF12C0B56E900BA18CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7207BDF82C0B577800BA18CE /* LoginView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7207BDF22C0B56F000BA18CE /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				7207BDF42C0B572400BA18CE /* LoginViewModel.swift */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		7207BDFA2C0B5C5E00BA18CE /* Localizations */ = {
+			isa = PBXGroup;
+			children = (
+				7207BDFB2C0B5C6C00BA18CE /* Localization.swift */,
+			);
+			path = Localizations;
+			sourceTree = "<group>";
+		};
+		7207BDFD2C0B5F5400BA18CE /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				7207BE032C0B5F8C00BA18CE /* APIRouter.swift */,
+				7207BE052C0B5FB600BA18CE /* Constans.swift */,
+				7207BDFE2C0B5F5B00BA18CE /* NetworkClient.swift */,
+				7207BE002C0B5F6900BA18CE /* LoginRouter.swift */,
+				7207BE3A2C0C4D9400BA18CE /* HomeRouter.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		7207BE022C0B5F8400BA18CE /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				7207BE362C0C46DE00BA18CE /* incidentsProtocols.swift */,
+				7207BDF62C0B573100BA18CE /* LoginProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		7207BE072C0B5FD200BA18CE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7207BE082C0B5FD700BA18CE /* ResponseObject.swift */,
+				7207BE0F2C0B614700BA18CE /* LoginModel.swift */,
+				7207BE382C0C471600BA18CE /* IncidentsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7207BE112C0B62E200BA18CE /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				7207BDEB2C0B569700BA18CE /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		7207BE252C0BCD1100BA18CE /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				7207BE282C0BCD2200BA18CE /* Routable.swift */,
+				7207BE262C0BCD2200BA18CE /* Router.swift */,
+				7207BE272C0BCD2200BA18CE /* RoutingView.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		7207BE2C2C0BD39600BA18CE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7207BE2F2C0BD3B000BA18CE /* View */,
+				7207BE2E2C0BD3AA00BA18CE /* VM */,
+				7207BE2D2C0BD3A400BA18CE /* Service */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7207BE2D2C0BD3A400BA18CE /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				7207BE342C0BD3EB00BA18CE /* DefaultHomeService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		7207BE2E2C0BD3AA00BA18CE /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				7207BE322C0BD3D600BA18CE /* HomeViewModel.swift */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		7207BE2F2C0BD3B000BA18CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7207BE302C0BD3C100BA18CE /* HomeView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +270,10 @@
 			dependencies = (
 			);
 			name = Elm;
+			packageProductDependencies = (
+				7207BE0B2C0B602300BA18CE /* Alamofire */,
+				7207BE0D2C0B602300BA18CE /* AlamofireDynamic */,
+			);
 			productName = Elm;
 			productReference = 7207BDD92C0B564600BA18CE /* Elm.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +302,9 @@
 				Base,
 			);
 			mainGroup = 7207BDD02C0B564600BA18CE;
+			packageReferences = (
+				7207BE0A2C0B602300BA18CE /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 7207BDDA2C0B564600BA18CE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +331,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7207BE332C0BD3D600BA18CE /* HomeViewModel.swift in Sources */,
 				7207BDDF2C0B564600BA18CE /* ContentView.swift in Sources */,
+				7207BE102C0B614700BA18CE /* LoginModel.swift in Sources */,
+				7207BDF92C0B577800BA18CE /* LoginView.swift in Sources */,
+				7207BE062C0B5FB600BA18CE /* Constans.swift in Sources */,
+				7207BDEC2C0B569700BA18CE /* Service.swift in Sources */,
 				7207BDDD2C0B564600BA18CE /* ElmApp.swift in Sources */,
+				7207BDF72C0B573100BA18CE /* LoginProtocols.swift in Sources */,
+				7207BE292C0BCD2200BA18CE /* Router.swift in Sources */,
+				7207BDFF2C0B5F5B00BA18CE /* NetworkClient.swift in Sources */,
+				7207BE312C0BD3C100BA18CE /* HomeView.swift in Sources */,
+				7207BE3B2C0C4D9400BA18CE /* HomeRouter.swift in Sources */,
+				7207BE372C0C46DE00BA18CE /* incidentsProtocols.swift in Sources */,
+				7207BDF52C0B572400BA18CE /* LoginViewModel.swift in Sources */,
+				7207BDFC2C0B5C6C00BA18CE /* Localization.swift in Sources */,
+				7207BE2B2C0BCD2200BA18CE /* Routable.swift in Sources */,
+				7207BE352C0BD3EB00BA18CE /* DefaultHomeService.swift in Sources */,
+				7207BE092C0B5FD700BA18CE /* ResponseObject.swift in Sources */,
+				7207BE012C0B5F6900BA18CE /* LoginRouter.swift in Sources */,
+				7207BE042C0B5F8C00BA18CE /* APIRouter.swift in Sources */,
+				7207BE392C0C471600BA18CE /* IncidentsModel.swift in Sources */,
+				7207BDEE2C0B56B200BA18CE /* DefaultLoginService.swift in Sources */,
+				7207BE2A2C0BCD2200BA18CE /* RoutingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +559,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7207BE0A2C0B602300BA18CE /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7207BE0B2C0B602300BA18CE /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7207BE0A2C0B602300BA18CE /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		7207BE0D2C0B602300BA18CE /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7207BE0A2C0B602300BA18CE /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7207BDD12C0B564600BA18CE /* Project object */;
 }
